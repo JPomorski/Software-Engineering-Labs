@@ -1,5 +1,3 @@
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
         Player player = new Player();
@@ -8,7 +6,8 @@ public class Main {
         Enemy bandit = new Enemy("Bandit");
 
         PlayerObservers observers = new PlayerObservers();
-        observers.addObservers(List.of(wolf, bandit));
+        observers.addObserver(wolf);
+        observers.addObserver(bandit);
 
         player.setObservers(observers);
         player.move();
