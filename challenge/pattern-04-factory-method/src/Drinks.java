@@ -4,6 +4,7 @@ public class Drinks {
         public void showName() {
             System.out.println("Poured Fanta");
         }
+
     }
 
     public static class Cola implements Drink {
@@ -11,6 +12,7 @@ public class Drinks {
         public void showName() {
             System.out.println("Poured Cola");
         }
+
     }
 
     public static class Sprite implements Drink {
@@ -18,5 +20,6 @@ public class Drinks {
         public void showName() {
             System.out.println("Poured Sprite");
         }
+
     }
 }
