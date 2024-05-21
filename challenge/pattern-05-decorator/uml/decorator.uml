@@ -59,13 +59,13 @@
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">212</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">156</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">117</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">118</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">85</XPD:ATTR>
 <XPD:REF name="Model">JBZSxuSUIE6feM/q3ZFn2wAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="4kp7T6QakEW0Br25jwHG2gAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="i1gjzykP/kCfZxvF1GNw2AAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">BurgerMachine</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">CoffeeMachine</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="UfyjeqTrb0ihi9oTWgwyCQAA">
 <XPD:ATTR name="Text" type="string">&lt;&lt;interface&gt;&gt;</XPD:ATTR>
@@ -91,13 +91,13 @@
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">212</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">304</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">117</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">118</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">56</XPD:ATTR>
 <XPD:REF name="Model">FdaDrzmTbke0xPNYCrBtogAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="T/7nO35jukKeF2bGOcAxHAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="o4QFwNET7Uq7i1mttQuRoAAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Hamburger</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">BasicCoffee</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="RVkvr16dH0mAM1DH31/BGgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -107,6 +107,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="cCstRUapV0+L1Hm0IKImKgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
 <XPD:REF name="Model">FdaDrzmTbke0xPNYCrBtogAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="0ra/8fWrVEKCMTxfF9DuGwAA">
@@ -121,14 +122,14 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">424</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">160</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">156</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">326</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">82</XPD:ATTR>
 <XPD:REF name="Model">aZAXwkgrckuttIgkyv6wMwAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="YIQuuE7oUEmFNHK9Owcm5AAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="P/2o07H6sUCnOZq/J5fTSQAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">ToppingsMachine</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">ExtrasMachine</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="b5H//2nEkUiFzNxzIEB/IQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -159,7 +160,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="aB3jKqvCt06k21IGmPnb/AAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="ZC6aOjp+3EmAeNd74274iQAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">CheeseDispenser</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">MilkDispenser</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="g3mAkAAk3UayMJ/tbEkP2wAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -184,7 +185,7 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">586,304;586,241</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">586,304;586,237</XPD:ATTR>
 <XPD:REF name="Model">saMNZ30XJ06tTAlVBHaxhQAA</XPD:REF>
 <XPD:REF name="Head">i6IChlQFSkuXV+cSSaHMBAAA</XPD:REF>
 <XPD:REF name="Tail">8peMzLSMxE6jeJYMOigrcAAA</XPD:REF>
@@ -211,7 +212,7 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">424,184;328,184</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">424,184;329,184</XPD:ATTR>
 <XPD:REF name="Model">2CqQhrnnf0KX1CswRBlm+gAA</XPD:REF>
 <XPD:REF name="Head">YDJPMqdCzEGV5JY9srrwdwAA</XPD:REF>
 <XPD:REF name="Tail">i6IChlQFSkuXV+cSSaHMBAAA</XPD:REF>
@@ -265,7 +266,7 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">424,216;328,216</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">424,216;329,216</XPD:ATTR>
 <XPD:REF name="Model">Cr5CVddw10ufKRZzQb64rwAA</XPD:REF>
 <XPD:REF name="Head">YDJPMqdCzEGV5JY9srrwdwAA</XPD:REF>
 <XPD:REF name="Tail">i6IChlQFSkuXV+cSSaHMBAAA</XPD:REF>
@@ -350,7 +351,7 @@
 </XPD:OBJ>
 <XPD:ATTR name="#OwnedElements" type="integer">8</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="JBZSxuSUIE6feM/q3ZFn2wAA">
-<XPD:ATTR name="Name" type="string">BurgerMachine</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">CoffeeMachine</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">interface</XPD:ATTR>
 <XPD:REF name="Namespace">XgAh1kiOykqCEvtnr5dg/wAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
@@ -363,12 +364,12 @@
 <XPD:REF name="SupplierDependencies[1]">Sn9amXexn0yifAqcsHvHuAAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="5WutmSPi6kiXBN2JjmqvjAAA">
-<XPD:ATTR name="Name" type="string">makeBurger</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">makeCoffee</XPD:ATTR>
 <XPD:REF name="Owner">JBZSxuSUIE6feM/q3ZFn2wAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="e8ehSSYTMkKY3deJWZm4SwAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Z5o2UkoMlkeQwxlh/CVaYwAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">5WutmSPi6kiXBN2JjmqvjAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -376,7 +377,7 @@
 <XPD:REF name="Associations[0]">WuXSe26SdUCNAmWL35/hhQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[1]" type="UMLClass" guid="FdaDrzmTbke0xPNYCrBtogAA">
-<XPD:ATTR name="Name" type="string">Hamburger</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">BasicCoffee</XPD:ATTR>
 <XPD:REF name="Namespace">XgAh1kiOykqCEvtnr5dg/wAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">dQE3rmULwkaG8oCbCdxtGAAA</XPD:REF>
@@ -386,19 +387,19 @@
 <XPD:ATTR name="#ClientDependencies" type="integer">1</XPD:ATTR>
 <XPD:REF name="ClientDependencies[0]">Sn9amXexn0yifAqcsHvHuAAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="n5+gMMmLgkGazPDnEyg1vwAA">
-<XPD:ATTR name="Name" type="string">makeBurger</XPD:ATTR>
+<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="MWroJqE46UKRjCod/riEowAA">
+<XPD:ATTR name="Name" type="string">makeCoffee</XPD:ATTR>
 <XPD:REF name="Owner">FdaDrzmTbke0xPNYCrBtogAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="NQ6U+336PUu9202PTaETAgAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="aksH9pzG806IhTpIXwF6rwAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
-<XPD:REF name="BehavioralFeature">n5+gMMmLgkGazPDnEyg1vwAA</XPD:REF>
+<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">MWroJqE46UKRjCod/riEowAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[2]" type="UMLClass" guid="aZAXwkgrckuttIgkyv6wMwAA">
-<XPD:ATTR name="Name" type="string">ToppingsMachine</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">ExtrasMachine</XPD:ATTR>
 <XPD:REF name="Namespace">XgAh1kiOykqCEvtnr5dg/wAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">i6IChlQFSkuXV+cSSaHMBAAA</XPD:REF>
@@ -411,38 +412,37 @@
 <XPD:REF name="Specializations[0]">saMNZ30XJ06tTAlVBHaxhQAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="9s/4BwaJJE2xqHlQfkWZNAAA">
-<XPD:ATTR name="Name" type="string">ToppingsMachine</XPD:ATTR>
-<XPD:ATTR name="StereotypeProfile" type="string">UMLStandard</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">ExtrasMachine</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">create</XPD:ATTR>
 <XPD:REF name="Owner">aZAXwkgrckuttIgkyv6wMwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="sO8z7nE0KEeBbkEisApZ3QAA">
-<XPD:ATTR name="Name" type="string">burgerMachine</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">BurgerMachine*</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="xM8kTpHpDEyy48Tg3D1dkwAA">
+<XPD:ATTR name="Name" type="string">coffeeMachine</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">CoffeeMachine*</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">9s/4BwaJJE2xqHlQfkWZNAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="Operations[1]" type="UMLOperation" guid="mBDG5hjYg0eNnflnCFWtigAA">
-<XPD:ATTR name="Name" type="string">makeBurger</XPD:ATTR>
+<XPD:OBJ name="Operations[1]" type="UMLOperation" guid="DHFuyhApKEq02FujRvS5wgAA">
+<XPD:ATTR name="Name" type="string">makeCoffee</XPD:ATTR>
 <XPD:REF name="Owner">aZAXwkgrckuttIgkyv6wMwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="ylTOE2GFTUGhxaJGQqzCVgAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="C8oGIx46N0uevoC/IOJegwAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
-<XPD:REF name="BehavioralFeature">mBDG5hjYg0eNnflnCFWtigAA</XPD:REF>
+<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">DHFuyhApKEq02FujRvS5wgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Associations[0]">Rtp6WOQPoUW/J5faNIyISAAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="Y9dfmeWcdkul0PXBZFhhCwAA">
-<XPD:ATTR name="Name" type="string">burgerMachine</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">BurgerMachine*</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">coffeeMachine</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">CoffeeMachine*</XPD:ATTR>
 <XPD:REF name="Owner">aZAXwkgrckuttIgkyv6wMwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[3]" type="UMLClass" guid="uzpa3LBg/UquQEi9wEZbPAAA">
-<XPD:ATTR name="Name" type="string">CheeseDispenser</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">MilkDispenser</XPD:ATTR>
 <XPD:REF name="Namespace">XgAh1kiOykqCEvtnr5dg/wAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">8peMzLSMxE6jeJYMOigrcAAA</XPD:REF>
@@ -452,14 +452,14 @@
 <XPD:ATTR name="#Generalizations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Generalizations[0]">saMNZ30XJ06tTAlVBHaxhQAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="JPJbKiwtvUybJ9gXfdOtKwAA">
-<XPD:ATTR name="Name" type="string">makeBurger</XPD:ATTR>
+<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="yfJFy3KgxEeeyySAYIbJ2AAA">
+<XPD:ATTR name="Name" type="string">makeCoffee</XPD:ATTR>
 <XPD:REF name="Owner">uzpa3LBg/UquQEi9wEZbPAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="pQVjT+Vb9EChROUk0CM74QAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="xTYjqDiEcUu9H1/89OMnjwAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
-<XPD:REF name="BehavioralFeature">JPJbKiwtvUybJ9gXfdOtKwAA</XPD:REF>
+<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">yfJFy3KgxEeeyySAYIbJ2AAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
