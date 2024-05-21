@@ -367,9 +367,9 @@
 <XPD:ATTR name="Name" type="string">makeCoffee</XPD:ATTR>
 <XPD:REF name="Owner">JBZSxuSUIE6feM/q3ZFn2wAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Z5o2UkoMlkeQwxlh/CVaYwAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Ow2mtq1y4kS1xmvxvxCiYwAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">5WutmSPi6kiXBN2JjmqvjAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -391,9 +391,9 @@
 <XPD:ATTR name="Name" type="string">makeCoffee</XPD:ATTR>
 <XPD:REF name="Owner">FdaDrzmTbke0xPNYCrBtogAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="aksH9pzG806IhTpIXwF6rwAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="/FQPlIJaVU2I5xpBryw/SAAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">MWroJqE46UKRjCod/riEowAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -426,9 +426,9 @@
 <XPD:ATTR name="Name" type="string">makeCoffee</XPD:ATTR>
 <XPD:REF name="Owner">aZAXwkgrckuttIgkyv6wMwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="C8oGIx46N0uevoC/IOJegwAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="qBtGf4GEK0WKW0cqLvG/eAAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">DHFuyhApKEq02FujRvS5wgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -456,9 +456,9 @@
 <XPD:ATTR name="Name" type="string">makeCoffee</XPD:ATTR>
 <XPD:REF name="Owner">uzpa3LBg/UquQEi9wEZbPAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="xTYjqDiEcUu9H1/89OMnjwAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="lwJILL46q0inJBGhtj2udQAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">yfJFy3KgxEeeyySAYIbJ2AAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
