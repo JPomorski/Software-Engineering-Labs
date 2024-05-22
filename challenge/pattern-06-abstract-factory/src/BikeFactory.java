@@ -1,13 +1,13 @@
 public class BikeFactory {
-    public Frame assembleFrame(FrameFactory factory) {
+    public Frame assembleFrame(Factories.FrameFactory factory) {
         return factory.createFrame();
     }
 
-    public Wheels assembleWheels(WheelsFactory factory) {
+    public Wheels assembleWheels(Factories.WheelsFactory factory) {
         return factory.createWheels();
     }
 
-    public Handlebars assembleHandlebars(HandlebarsFactory factory) {
+    public Handlebars assembleHandlebars(Factories.HandlebarsFactory factory) {
         return factory.createHandlebars();
     }
 }

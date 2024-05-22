@@ -97,7 +97,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="ptbyvl/CQEO6vvsmkCmApAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="TRsFw+YbZU2LJb30nBrJPAAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">FrameFactory</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Factories.FrameFactory</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="t4oVONXLYUe3/rF5BX1vVAAA">
 <XPD:ATTR name="Text" type="string">&lt;&lt;interface&gt;&gt;</XPD:ATTR>
@@ -447,7 +447,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="zOUqfTnx30ynBXoZWvht/gAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="FM/WUp+UYE+6cHYKe3RGBwAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">WheelsFactory</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Factories.WheelsFactory</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="pBCMYmKDZky1IiA3DuxJeQAA">
 <XPD:ATTR name="Text" type="string">&lt;&lt;interface&gt;&gt;</XPD:ATTR>
@@ -1163,7 +1163,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="jOaD3lpX6kC9o/pfE+LsrQAA">
 <XPD:ATTR name="Name" type="string">factory</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">FrameFactory*</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Factories.FrameFactory*</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">ItrsZ8wgc0iK2YOtX/GU5gAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -1178,7 +1178,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="69GUOkFNdUC9bSZNXnRQuAAA">
 <XPD:ATTR name="Name" type="string">factory</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">WheelsFactory*</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Factories.WheelsFactory*</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">MGJ1ruC0m0qcSY+r543JgAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -1199,7 +1199,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[1]" type="UMLClass" guid="tWf8lPfnNEu20Tqp1HPeagAA">
-<XPD:ATTR name="Name" type="string">FrameFactory</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Factories.FrameFactory</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">interface</XPD:ATTR>
 <XPD:REF name="Namespace">QcYVvMikuUGEMRAr3KTleQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
@@ -1399,7 +1399,7 @@
 <XPD:REF name="Views[3]">28fI9zgZDk2LA3Q3+NAV2AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[13]" type="UMLClass" guid="i+sVkkSD5Ee/1j0jJhUA8gAA">
-<XPD:ATTR name="Name" type="string">WheelsFactory</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Factories.WheelsFactory</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">interface</XPD:ATTR>
 <XPD:REF name="Namespace">QcYVvMikuUGEMRAr3KTleQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
