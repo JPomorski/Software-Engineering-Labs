@@ -2,14 +2,14 @@
 public class Assemblers {
     public static class MtbFrameAssembler implements Factories.FrameFactory {
         @Override
-        public Frame createFrame() {
+        public Factories.Frame createFrame() {
             return new Components.MtbFrame();
         }
     }
 
     public static class CityFrameAssembler implements Factories.FrameFactory {
         @Override
-        public Frame createFrame() {
+        public Factories.Frame createFrame() {
             return new Components.CityFrame();
         }
     }
@@ -17,14 +17,14 @@ public class Assemblers {
 
     public static class MtbWheelsAssembler implements Factories.WheelsFactory {
         @Override
-        public Wheels createWheels() {
+        public Factories.Wheels createWheels() {
             return new Components.MtbWheels();
         }
     }
 
     public static class CityWheelsAssembler implements Factories.WheelsFactory {
         @Override
-        public Wheels createWheels() {
+        public Factories.Wheels createWheels() {
             return new Components.CityWheels();
         }
     }
@@ -32,14 +32,14 @@ public class Assemblers {
 
     public static class MtbHandlebarsAssembler implements Factories.HandlebarsFactory {
         @Override
-        public Handlebars createHandlebars() {
+        public Factories.Handlebars createHandlebars() {
             return new Components.MtbHandlebars();
         }
     }
 
     public static class CityHandlebarsAssembler implements Factories.HandlebarsFactory {
         @Override
-        public Handlebars createHandlebars() {
+        public Factories.Handlebars createHandlebars() {
             return new Components.CityHandlebars();
         }
     }

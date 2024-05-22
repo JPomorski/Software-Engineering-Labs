@@ -65,7 +65,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="IQjfZNAbXkS/pb/CIkFe0gAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="lnCJAEkgtEO68Gx7ylx2eQAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">BikeFactory</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Factories.BikeFactory</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="MS0wpCFIYU2MqL+d421EAQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -245,7 +245,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="TGwSO6TVI0abPJ9F1o4qpAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="Xm7HLmeY+kSiPAvGy/BVYQAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Frame</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Factories.Frame</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="XGP9Git4xUG1/0/m80a/FgAA">
 <XPD:ATTR name="Text" type="string">&lt;&lt;interface&gt;&gt;</XPD:ATTR>
@@ -639,7 +639,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="bjM0ERqFCUyUQ89LUTIeNwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="68LUUS5ohkShudGaKXBRDgAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Wheels</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Factories.Wheels</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="5OHCcewWREybmkZMmZw4zwAA">
 <XPD:ATTR name="Text" type="string">&lt;&lt;interface&gt;&gt;</XPD:ATTR>
@@ -735,7 +735,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="OMaJ9cda5k2gZZ7gZTmROAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="2xyTAaJPxUOpLOYCrdBosQAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Handlebars</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Factories.Handlebars</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="06FIJZGwpkKw4FAwXtMYqgAA">
 <XPD:ATTR name="Text" type="string">&lt;&lt;interface&gt;&gt;</XPD:ATTR>
@@ -1140,7 +1140,7 @@
 </XPD:OBJ>
 <XPD:ATTR name="#OwnedElements" type="integer">36</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="kcobazhFk0yHvfULu1HvmgAA">
-<XPD:ATTR name="Name" type="string">BikeFactory</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Factories.BikeFactory</XPD:ATTR>
 <XPD:REF name="Namespace">QcYVvMikuUGEMRAr3KTleQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">n5tD0QAnvkCUya9Wh/czngAA</XPD:REF>
@@ -1158,7 +1158,7 @@
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="NIuWscZUw0eYJXDpcf5DPQAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Frame</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Factories.Frame</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">ItrsZ8wgc0iK2YOtX/GU5gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="jOaD3lpX6kC9o/pfE+LsrQAA">
@@ -1188,7 +1188,7 @@
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="ZkEmgRPvLEuZv+xpZi800AAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Handlebars</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Factories.Handlebars</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">69Q6nonZB0WvlFK3bMlQlgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="qd+GHnmIkUSNVtErG3KVmwAA">
@@ -1220,7 +1220,7 @@
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="oOGpF1hiMUyRYnnwl5o1pAAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Frame</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Factories.Frame</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">S9/7EL8fSUaMOOI6YI89bAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -1242,7 +1242,7 @@
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="BelcAxP7MEenuS6U5uTy7gAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Frame</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Factories.Frame</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">iRSIGgNiQ0e3qSVuwy4m4gAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -1264,7 +1264,7 @@
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="oo21xaqQLUeahVgooVwHjQAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Frame</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Factories.Frame</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">hBk4Oqvjak62u4QycnCSfwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -1290,7 +1290,7 @@
 <XPD:REF name="Views[3]">4jzvLWtZ3kSHIpAFNl0ZZgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[6]" type="UMLClass" guid="zYUefuw/D0yEh/SyPjYuBwAA">
-<XPD:ATTR name="Name" type="string">Frame</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Factories.Frame</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">interface</XPD:ATTR>
 <XPD:REF name="Namespace">QcYVvMikuUGEMRAr3KTleQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
@@ -1420,7 +1420,7 @@
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="cnAtyM2MY0u8MGwiRgNlfAAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Wheels</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Factories.Wheels</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">ZE1WD2Ao2UaRXFnzLw+DBwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -1442,7 +1442,7 @@
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="BhqgNwfjrUin4pNTBNq5HQAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Wheels</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Factories.Wheels</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">XL1Sjynzv0+oKPv1kdmOLAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -1464,7 +1464,7 @@
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="PBIAMCPP7EKULbIrWI887gAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Wheels</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Factories.Wheels</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">vn4EPRul5ESJXUzgv5EnlAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -1542,7 +1542,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[18]" type="UMLClass" guid="9UlgvLGZVUG0mezmIGcP0gAA">
-<XPD:ATTR name="Name" type="string">Wheels</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Factories.Wheels</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">interface</XPD:ATTR>
 <XPD:REF name="Namespace">QcYVvMikuUGEMRAr3KTleQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
@@ -1614,7 +1614,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[21]" type="UMLClass" guid="nEctBRSU/EmgLWhr/lArZAAA">
-<XPD:ATTR name="Name" type="string">Handlebars</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Factories.Handlebars</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">interface</XPD:ATTR>
 <XPD:REF name="Namespace">QcYVvMikuUGEMRAr3KTleQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
