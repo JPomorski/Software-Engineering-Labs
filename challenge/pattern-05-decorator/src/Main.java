@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        BasicCoffee coffee = new BasicCoffee();
-        coffee.makeCoffee();
+        BasicCake cake = new BasicCake();
+        cake.makeCake();
 
-        ExtraMilk extra = new ExtraMilk(coffee);
-        extra.makeCoffee();
+        AddVanillaFrosting extraFrosting = new AddVanillaFrosting(cake);
+        extraFrosting.makeCake();
     }
 }

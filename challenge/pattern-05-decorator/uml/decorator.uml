@@ -65,7 +65,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="4kp7T6QakEW0Br25jwHG2gAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="i1gjzykP/kCfZxvF1GNw2AAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">CoffeeMachine</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">CakeMachine</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="UfyjeqTrb0ihi9oTWgwyCQAA">
 <XPD:ATTR name="Text" type="string">&lt;&lt;interface&gt;&gt;</XPD:ATTR>
@@ -97,7 +97,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="T/7nO35jukKeF2bGOcAxHAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="o4QFwNET7Uq7i1mttQuRoAAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">BasicCoffee</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">BasicCake</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="RVkvr16dH0mAM1DH31/BGgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -160,7 +160,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="aB3jKqvCt06k21IGmPnb/AAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="ZC6aOjp+3EmAeNd74274iQAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">ExtraMilk</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">AddFrosting</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="g3mAkAAk3UayMJ/tbEkP2wAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -351,7 +351,7 @@
 </XPD:OBJ>
 <XPD:ATTR name="#OwnedElements" type="integer">8</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="JBZSxuSUIE6feM/q3ZFn2wAA">
-<XPD:ATTR name="Name" type="string">CoffeeMachine</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">CakeMachine</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">interface</XPD:ATTR>
 <XPD:REF name="Namespace">XgAh1kiOykqCEvtnr5dg/wAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
@@ -364,10 +364,10 @@
 <XPD:REF name="SupplierDependencies[1]">Sn9amXexn0yifAqcsHvHuAAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="5WutmSPi6kiXBN2JjmqvjAAA">
-<XPD:ATTR name="Name" type="string">makeCoffee</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">makeCake</XPD:ATTR>
 <XPD:REF name="Owner">JBZSxuSUIE6feM/q3ZFn2wAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Ow2mtq1y4kS1xmvxvxCiYwAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="098kJ3o660G+zHpnX3ZstgAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">5WutmSPi6kiXBN2JjmqvjAAA</XPD:REF>
@@ -377,7 +377,7 @@
 <XPD:REF name="Associations[0]">WuXSe26SdUCNAmWL35/hhQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[1]" type="UMLClass" guid="FdaDrzmTbke0xPNYCrBtogAA">
-<XPD:ATTR name="Name" type="string">BasicCoffee</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">BasicCake</XPD:ATTR>
 <XPD:REF name="Namespace">XgAh1kiOykqCEvtnr5dg/wAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">dQE3rmULwkaG8oCbCdxtGAAA</XPD:REF>
@@ -387,14 +387,14 @@
 <XPD:ATTR name="#ClientDependencies" type="integer">1</XPD:ATTR>
 <XPD:REF name="ClientDependencies[0]">Sn9amXexn0yifAqcsHvHuAAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="MWroJqE46UKRjCod/riEowAA">
-<XPD:ATTR name="Name" type="string">makeCoffee</XPD:ATTR>
+<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="/ZH4aGMMtEeNmnPdwFw6ngAA">
+<XPD:ATTR name="Name" type="string">makeCake</XPD:ATTR>
 <XPD:REF name="Owner">FdaDrzmTbke0xPNYCrBtogAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="/FQPlIJaVU2I5xpBryw/SAAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="NnezX0rLAk6ZUPhfjYWsqQAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
-<XPD:REF name="BehavioralFeature">MWroJqE46UKRjCod/riEowAA</XPD:REF>
+<XPD:REF name="BehavioralFeature">/ZH4aGMMtEeNmnPdwFw6ngAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -412,37 +412,37 @@
 <XPD:REF name="Specializations[0]">saMNZ30XJ06tTAlVBHaxhQAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="9s/4BwaJJE2xqHlQfkWZNAAA">
-<XPD:ATTR name="Name" type="string">ExtrasMachine</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">CakeMachine</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">create</XPD:ATTR>
 <XPD:REF name="Owner">aZAXwkgrckuttIgkyv6wMwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="xM8kTpHpDEyy48Tg3D1dkwAA">
-<XPD:ATTR name="Name" type="string">coffeeMachine</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">CoffeeMachine*</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="owIV6kkGO0OfWscVH/a88AAA">
+<XPD:ATTR name="Name" type="string">cakeMachine</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">CakeMachine*</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">9s/4BwaJJE2xqHlQfkWZNAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="Operations[1]" type="UMLOperation" guid="DHFuyhApKEq02FujRvS5wgAA">
-<XPD:ATTR name="Name" type="string">makeCoffee</XPD:ATTR>
+<XPD:OBJ name="Operations[1]" type="UMLOperation" guid="74ukmY0DY0eQmsKd++rgpAAA">
+<XPD:ATTR name="Name" type="string">makeCake</XPD:ATTR>
 <XPD:REF name="Owner">aZAXwkgrckuttIgkyv6wMwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="qBtGf4GEK0WKW0cqLvG/eAAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="/TDKG8JIhUm+4ucuagUrjwAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
-<XPD:REF name="BehavioralFeature">DHFuyhApKEq02FujRvS5wgAA</XPD:REF>
+<XPD:REF name="BehavioralFeature">74ukmY0DY0eQmsKd++rgpAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Associations[0]">Rtp6WOQPoUW/J5faNIyISAAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="Y9dfmeWcdkul0PXBZFhhCwAA">
-<XPD:ATTR name="Name" type="string">coffeeMachine</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">CoffeeMachine*</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">cakeMachine</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">CakeMachine*</XPD:ATTR>
 <XPD:REF name="Owner">aZAXwkgrckuttIgkyv6wMwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[3]" type="UMLClass" guid="uzpa3LBg/UquQEi9wEZbPAAA">
-<XPD:ATTR name="Name" type="string">ExtraMilk</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">AddFrosting</XPD:ATTR>
 <XPD:REF name="Namespace">XgAh1kiOykqCEvtnr5dg/wAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">8peMzLSMxE6jeJYMOigrcAAA</XPD:REF>
@@ -452,14 +452,14 @@
 <XPD:ATTR name="#Generalizations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Generalizations[0]">saMNZ30XJ06tTAlVBHaxhQAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="yfJFy3KgxEeeyySAYIbJ2AAA">
-<XPD:ATTR name="Name" type="string">makeCoffee</XPD:ATTR>
+<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="rcd3V3CrIEeT1gleJGvF+QAA">
+<XPD:ATTR name="Name" type="string">makeCake</XPD:ATTR>
 <XPD:REF name="Owner">uzpa3LBg/UquQEi9wEZbPAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="lwJILL46q0inJBGhtj2udQAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="ahAFCQICZkuCXqINb0p1pwAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
-<XPD:REF name="BehavioralFeature">yfJFy3KgxEeeyySAYIbJ2AAA</XPD:REF>
+<XPD:REF name="BehavioralFeature">rcd3V3CrIEeT1gleJGvF+QAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>

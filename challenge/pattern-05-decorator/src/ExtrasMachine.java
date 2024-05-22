@@ -1,12 +1,12 @@
-public class ExtrasMachine implements CoffeeMachine {
-    protected CoffeeMachine coffeeMachine;
+public class ExtrasMachine implements CakeMachine {
+    protected CakeMachine cakeMachine;
 
-    public ExtrasMachine(CoffeeMachine coffeeMachine) {
-        this.coffeeMachine = coffeeMachine;
+    public ExtrasMachine(CakeMachine cakeMachine) {
+        this.cakeMachine = cakeMachine;
     }
 
     @Override
-    public void makeCoffee() {
-        coffeeMachine.makeCoffee();
+    public void makeCake() {
+        cakeMachine.makeCake();
     }
 }
