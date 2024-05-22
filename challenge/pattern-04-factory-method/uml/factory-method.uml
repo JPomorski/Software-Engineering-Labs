@@ -574,13 +574,14 @@
 <XPD:ATTR name="Name" type="string">pourDrink</XPD:ATTR>
 <XPD:REF name="Owner">kcobazhFk0yHvfULu1HvmgAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="bxN57d5qyE+85yCWtTzTxgAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="AQW/Rybxa0alg5p8ND6B+gAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Drink</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">ItrsZ8wgc0iK2YOtX/GU5gAA</XPD:REF>
+<XPD:REF name="Type_">zYUefuw/D0yEh/SyPjYuBwAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="eaFci8QgSUiiabcya2vdGgAA">
-<XPD:ATTR name="Name" type="string">Distributor* distributor</XPD:ATTR>
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="bEPcFqSyuEyIycRFQxJP2gAA">
+<XPD:ATTR name="Name" type="string">distributor</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Distributor*</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">ItrsZ8wgc0iK2YOtX/GU5gAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -734,6 +735,8 @@
 <XPD:REF name="BehavioralFeature">qZs39AtW4kycNAOQMcUCpgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:ATTR name="#TypedParameters" type="integer">1</XPD:ATTR>
+<XPD:REF name="TypedParameters[0]">AQW/Rybxa0alg5p8ND6B+gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[9]" type="UMLClass" guid="9otJ5v0SDkmS6aNcuNXIIQAA">
 <XPD:ATTR name="Name" type="string">Fanta</XPD:ATTR>

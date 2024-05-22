@@ -153,7 +153,7 @@
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">512</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">112</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">221</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">217</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">82</XPD:ATTR>
 <XPD:ATTR name="StereotypeDisplay" type="UMLStereotypeDisplayKind">sdkNone</XPD:ATTR>
 <XPD:REF name="Model">PR5C6xgzokij4LXqL33iNQAA</XPD:REF>
@@ -399,7 +399,7 @@
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="kmy5hSfy6Eit2I/dC2WGRgAA">
 <XPD:ATTR name="Name" type="string">name</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
 <XPD:REF name="Owner">Sg/PC/iMGUqofrmBU9GfFAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -483,13 +483,14 @@
 <XPD:ATTR name="Name" type="string">addObserver</XPD:ATTR>
 <XPD:REF name="Owner">PR5C6xgzokij4LXqL33iNQAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="2CXCXQK0mUWLQi2TERQgdgAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="uK2kTfCju0umcqxO/g7LTwAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">BVVEaAuoLUCD9tgrtO3cCwAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="ZEfTAy80AkygMwoAc68/IwAA">
-<XPD:ATTR name="Name" type="string">Observer* observer</XPD:ATTR>
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="CO7Z3KAyuUKhbdevNsITXgAA">
+<XPD:ATTR name="Name" type="string">observer</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Observer*</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">BVVEaAuoLUCD9tgrtO3cCwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>

@@ -392,14 +392,20 @@
 <XPD:REF name="ClientDependencies[0]">SWRghdT1z0mLw4E/4xMR1QAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="SQslcPWY60Gq23n7LUeahwAA">
-<XPD:ATTR name="Name" type="string">update(): void</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">update</XPD:ATTR>
 <XPD:REF name="Owner">Sg/PC/iMGUqofrmBU9GfFAAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="x8yBbCMUJ0Kz9JRh7NCMmQAA">
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">SQslcPWY60Gq23n7LUeahwAA</XPD:REF>
+</XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#Attributes" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="kmy5hSfy6Eit2I/dC2WGRgAA">
 <XPD:ATTR name="Name" type="string">name</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
 <XPD:REF name="Owner">Sg/PC/iMGUqofrmBU9GfFAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -483,13 +489,14 @@
 <XPD:ATTR name="Name" type="string">addObserver</XPD:ATTR>
 <XPD:REF name="Owner">PR5C6xgzokij4LXqL33iNQAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="2CXCXQK0mUWLQi2TERQgdgAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="uK2kTfCju0umcqxO/g7LTwAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">BVVEaAuoLUCD9tgrtO3cCwAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="ZEfTAy80AkygMwoAc68/IwAA">
-<XPD:ATTR name="Name" type="string">Observer* observer</XPD:ATTR>
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="CO7Z3KAyuUKhbdevNsITXgAA">
+<XPD:ATTR name="Name" type="string">observer</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Observer*</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">BVVEaAuoLUCD9tgrtO3cCwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
