@@ -57,9 +57,9 @@
 <XPD:OBJ name="OwnedViews[0]" type="UMLClassView" guid="n5tD0QAnvkCUya9Wh/czngAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">144</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">136</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">64</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">319</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">324</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">72</XPD:ATTR>
 <XPD:REF name="Model">kcobazhFk0yHvfULu1HvmgAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="IQjfZNAbXkS/pb/CIkFe0gAA">
@@ -447,7 +447,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="zOUqfTnx30ynBXoZWvht/gAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="FM/WUp+UYE+6cHYKe3RGBwAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">WheelFactory</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">WheelsFactory</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="pBCMYmKDZky1IiA3DuxJeQAA">
 <XPD:ATTR name="Text" type="string">&lt;&lt;interface&gt;&gt;</XPD:ATTR>
@@ -479,7 +479,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="l2gXSKrhsky58CeYrzsNPgAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="FK2SmP1S80GuPrIbyRsx4QAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">MtbWheelAssembler</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">MtbWheelsAssembler</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="N2QHVVBgrkmD025XRYXCKQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -511,7 +511,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="vQQEJy0knkmxWXezUbrf+AAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="SL0+20uJM0W5AWrPTisUIQAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">CityWheelAssembler</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">CityWheelsAssembler</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="MNpAUqA7BE+H2EStq7GMNwAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -543,7 +543,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="MEcDl5OE3U+D+wQzXkRnVwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="pPhOHnu2HUWnGCdhqLb/5gAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">HandlebarFactory</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">HandlebarsFactory</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="DzPFfs54dUu+vJn3/V+kOQAA">
 <XPD:ATTR name="Text" type="string">&lt;&lt;interface&gt;&gt;</XPD:ATTR>
@@ -575,7 +575,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="Xi3SqcG0OUOyYNuO+ZUBrQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="1iWnfwStIkS2/dkJeOkfvwAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">MtbHandlebarAssembler</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">MtbHandlebarsAssembler</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="kISXUsRAd0G5x5bIiW+f3QAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -607,7 +607,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="X50VxboIf0CFJwjZtNXSFwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="DyJnn2PEgESYpD1ciOfaAgAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">CityHandlebarAssembler</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">CityHandlebarsAssembler</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="e/JG+8umQk2s6zziSFSJrQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -1171,14 +1171,14 @@
 <XPD:ATTR name="Name" type="string">assembleWheels</XPD:ATTR>
 <XPD:REF name="Owner">kcobazhFk0yHvfULu1HvmgAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="3TLtH4f5M0WBaOy1OAZ2gAAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="d/KA1+aqdk23bhOHd9HZGQAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">MGJ1ruC0m0qcSY+r543JgAAA</XPD:REF>
 <XPD:REF name="Type_">9UlgvLGZVUG0mezmIGcP0gAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="Y9BWTAjw0kCDVXNiNpKe1AAA">
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="Lh9RjQUROkWdEqScFmuqAQAA">
 <XPD:ATTR name="Name" type="string">factory</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">WheelFactory*</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">WheelsFactory*</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">MGJ1ruC0m0qcSY+r543JgAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -1186,14 +1186,14 @@
 <XPD:ATTR name="Name" type="string">assembleHandlebars</XPD:ATTR>
 <XPD:REF name="Owner">kcobazhFk0yHvfULu1HvmgAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="ZkEmgRPvLEuZv+xpZi800AAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="2cPLR51BJUOc+n1IvPTjqgAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Handlebars</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">69Q6nonZB0WvlFK3bMlQlgAA</XPD:REF>
+<XPD:REF name="Type_">nEctBRSU/EmgLWhr/lArZAAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="qd+GHnmIkUSNVtErG3KVmwAA">
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="hA5CRrOSukO5fS5S6sQfjQAA">
 <XPD:ATTR name="Name" type="string">factory</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">HandlebarFactory*</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">HandlebarsFactory*</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">69Q6nonZB0WvlFK3bMlQlgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -1399,7 +1399,7 @@
 <XPD:REF name="Views[3]">28fI9zgZDk2LA3Q3+NAV2AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[13]" type="UMLClass" guid="i+sVkkSD5Ee/1j0jJhUA8gAA">
-<XPD:ATTR name="Name" type="string">WheelFactory</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">WheelsFactory</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">interface</XPD:ATTR>
 <XPD:REF name="Namespace">QcYVvMikuUGEMRAr3KTleQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
@@ -1426,7 +1426,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[14]" type="UMLClass" guid="6sioKR1EXUycX+JVG+7zFwAA">
-<XPD:ATTR name="Name" type="string">MtbWheelAssembler</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">MtbWheelsAssembler</XPD:ATTR>
 <XPD:REF name="Namespace">QcYVvMikuUGEMRAr3KTleQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">ehkkukEYpESpHiQggMkh3wAA</XPD:REF>
@@ -1448,7 +1448,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[15]" type="UMLClass" guid="6VBv63c7ykyH/wIS4ICgHgAA">
-<XPD:ATTR name="Name" type="string">CityWheelAssembler</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">CityWheelsAssembler</XPD:ATTR>
 <XPD:REF name="Namespace">QcYVvMikuUGEMRAr3KTleQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">VMZXAGlD+k+Q30Lfews4yQAA</XPD:REF>
@@ -1470,7 +1470,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[16]" type="UMLClass" guid="zJeBMupPG02m+dBwOtMZGwAA">
-<XPD:ATTR name="Name" type="string">HandlebarFactory</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">HandlebarsFactory</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">interface</XPD:ATTR>
 <XPD:REF name="Namespace">QcYVvMikuUGEMRAr3KTleQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
@@ -1486,7 +1486,7 @@
 <XPD:REF name="SupplierDependencies[2]">kMxr0Trtb0Ki+49/I5BfcgAA</XPD:REF>
 <XPD:ATTR name="#OwnedElements" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="/sqt52NA8k2lzKtTDkRFcQAA">
-<XPD:ATTR name="Name" type="string">MtbHandlebarAssembler</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">MtbHandlebarsAssembler</XPD:ATTR>
 <XPD:REF name="Namespace">zJeBMupPG02m+dBwOtMZGwAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">m4Us/ARg2UuA0rn3n2EOSAAA</XPD:REF>
@@ -1520,7 +1520,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[17]" type="UMLClass" guid="AKWpaSSBxEaq6WiHFXFPOwAA">
-<XPD:ATTR name="Name" type="string">CityHandlebarAssembler</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">CityHandlebarsAssembler</XPD:ATTR>
 <XPD:REF name="Namespace">QcYVvMikuUGEMRAr3KTleQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">bhFwA4PoJ0WQR31T3nCIaQAA</XPD:REF>
@@ -1565,9 +1565,10 @@
 <XPD:REF name="BehavioralFeature">ExFXdXOlgkqEW9OEZopF7gAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#TypedParameters" type="integer">2</XPD:ATTR>
+<XPD:ATTR name="#TypedParameters" type="integer">3</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">MqbWYwPb6k6o6Q1zUlHvTQAA</XPD:REF>
 <XPD:REF name="TypedParameters[1]">3TLtH4f5M0WBaOy1OAZ2gAAA</XPD:REF>
+<XPD:REF name="TypedParameters[2]">d/KA1+aqdk23bhOHd9HZGQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[19]" type="UMLClass" guid="CL2gRovWMkO0qGqQ3Boa9wAA">
 <XPD:ATTR name="Name" type="string">MtbWheels</XPD:ATTR>
@@ -1637,10 +1638,11 @@
 <XPD:REF name="BehavioralFeature">605zeHvYDUqQB3PoV8k7hwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#TypedParameters" type="integer">3</XPD:ATTR>
+<XPD:ATTR name="#TypedParameters" type="integer">4</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">r97nv+PxnU2YzBFomaHl1wAA</XPD:REF>
 <XPD:REF name="TypedParameters[1]">EHc+cqbosk6souzANb0YOgAA</XPD:REF>
 <XPD:REF name="TypedParameters[2]">PHcven7GL0uJ1OzGBunTLwAA</XPD:REF>
+<XPD:REF name="TypedParameters[3]">2cPLR51BJUOc+n1IvPTjqgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[22]" type="UMLClass" guid="qKi2PjcsCk2Eml9xTmxRPQAA">
 <XPD:ATTR name="Name" type="string">MtbHandlebars</XPD:ATTR>
