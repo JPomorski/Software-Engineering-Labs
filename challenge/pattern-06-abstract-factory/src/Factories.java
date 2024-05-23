@@ -1,4 +1,12 @@
 public class Factories {
+    public interface BikeFactory {
+        Frame assembleFrame();
+
+        Wheels assembleWheels();
+
+        Handlebars assembleHandlebars();
+    }
+
     public interface FrameFactory {
         Frame createFrame();
     }

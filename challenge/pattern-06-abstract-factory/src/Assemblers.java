@@ -1,4 +1,3 @@
-@SuppressWarnings("unused")
 public class Assemblers {
     public static class MtbFrameAssembler implements Factories.FrameFactory {
         @Override

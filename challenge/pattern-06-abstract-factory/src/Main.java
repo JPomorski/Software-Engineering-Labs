@@ -1,13 +1,22 @@
 public class Main {
     public static void main(String[] args) {
-        BikeFactory bikeFactory = new BikeFactory();
+        MtbFactory mtbFactory = new MtbFactory();
+        CityFactory cityFactory = new CityFactory();
 
-        Factories.Frame frame = bikeFactory.assembleFrame(new Assemblers.MtbFrameAssembler());
-        Factories.Wheels wheels = bikeFactory.assembleWheels(new Assemblers.CityWheelsAssembler());
-        Factories.Handlebars bars = bikeFactory.assembleHandlebars(new Assemblers.MtbHandlebarsAssembler());
+        Factories.Frame mtbFrame = mtbFactory.assembleFrame();
+        Factories.Wheels mtbWheels = mtbFactory.assembleWheels();
+        Factories.Handlebars mtbBars = mtbFactory.assembleHandlebars();
 
-        frame.showName();
-        wheels.showName();
-        bars.showName();
+        Factories.Frame cityFrame = cityFactory.assembleFrame();
+        Factories.Wheels cityWheels = cityFactory.assembleWheels();
+        Factories.Handlebars cityBars = cityFactory.assembleHandlebars();
+
+        mtbFrame.showName();
+        mtbWheels.showName();
+        mtbBars.showName();
+
+        cityFrame.showName();
+        cityWheels.showName();
+        cityBars.showName();
     }
 }
