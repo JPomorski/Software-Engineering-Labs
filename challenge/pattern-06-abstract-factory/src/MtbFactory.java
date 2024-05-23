@@ -1,16 +1,16 @@
-public class MtbFactory implements Factories.BikeFactory {
+public class MtbFactory implements Factory.BikeFactory {
     @Override
-    public Factories.Frame assembleFrame() {
-        return new Assemblers.MtbFrameAssembler().createFrame();
+    public Factory.Frame assembleFrame() {
+        return new Components.MtbFrame();
     }
 
     @Override
-    public Factories.Wheels assembleWheels() {
-        return new Assemblers.MtbWheelsAssembler().createWheels();
+    public Factory.Wheels assembleWheels() {
+        return new Components.MtbWheels();
     }
 
     @Override
-    public Factories.Handlebars assembleHandlebars() {
-        return new Assemblers.MtbHandlebarsAssembler().createHandlebars();
+    public Factory.Handlebars assembleHandlebars() {
+        return new Components.MtbHandlebars();
     }
 }

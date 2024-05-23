@@ -3,13 +3,13 @@ public class Main {
         MtbFactory mtbFactory = new MtbFactory();
         CityFactory cityFactory = new CityFactory();
 
-        Factories.Frame mtbFrame = mtbFactory.assembleFrame();
-        Factories.Wheels mtbWheels = mtbFactory.assembleWheels();
-        Factories.Handlebars mtbBars = mtbFactory.assembleHandlebars();
+        Factory.Frame mtbFrame = mtbFactory.assembleFrame();
+        Factory.Wheels mtbWheels = mtbFactory.assembleWheels();
+        Factory.Handlebars mtbBars = mtbFactory.assembleHandlebars();
 
-        Factories.Frame cityFrame = cityFactory.assembleFrame();
-        Factories.Wheels cityWheels = cityFactory.assembleWheels();
-        Factories.Handlebars cityBars = cityFactory.assembleHandlebars();
+        Factory.Frame cityFrame = cityFactory.assembleFrame();
+        Factory.Wheels cityWheels = cityFactory.assembleWheels();
+        Factory.Handlebars cityBars = cityFactory.assembleHandlebars();
 
         mtbFrame.showName();
         mtbWheels.showName();

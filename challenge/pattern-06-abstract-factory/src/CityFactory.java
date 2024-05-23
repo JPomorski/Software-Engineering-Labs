@@ -1,16 +1,16 @@
-public class CityFactory implements Factories.BikeFactory {
+public class CityFactory implements Factory.BikeFactory {
     @Override
-    public Factories.Frame assembleFrame() {
-        return new Assemblers.CityFrameAssembler().createFrame();
+    public Factory.Frame assembleFrame() {
+        return new Components.CityFrame();
     }
 
     @Override
-    public Factories.Wheels assembleWheels() {
-        return new Assemblers.CityWheelsAssembler().createWheels();
+    public Factory.Wheels assembleWheels() {
+        return new Components.CityWheels();
     }
 
     @Override
-    public Factories.Handlebars assembleHandlebars() {
-        return new Assemblers.CityHandlebarsAssembler().createHandlebars();
+    public Factory.Handlebars assembleHandlebars() {
+        return new Components.CityHandlebars();
     }
 }
