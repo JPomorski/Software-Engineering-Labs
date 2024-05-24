@@ -1,9 +1,7 @@
 public class Factory {
     public interface BikeFactory {
         Frame assembleFrame();
-
         Wheels assembleWheels();
-
         Handlebars assembleHandlebars();
     }
 
