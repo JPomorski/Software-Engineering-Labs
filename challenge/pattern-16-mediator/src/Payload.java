@@ -1,1 +1,0 @@
-public record Payload(String name, double weight) {}

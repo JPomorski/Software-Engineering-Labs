@@ -1,4 +1,4 @@
-public class Dispatcher {
+public class VanDriver {
     private CBRadio radio;
 
     public void setRadio(CBRadio radio) {
