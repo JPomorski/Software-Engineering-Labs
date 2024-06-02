@@ -64,7 +64,7 @@
 <XPD:REF name="Model">HBEUXT6eWESPD3jansDn/wAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="ZNQpk3D5UUyUOalydf9DUgAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="ATPZQx2OU02VYhlfbHK0PQAA">
-<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="FontStyle" type="integer">3</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">ImageFile</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="DiofH0Jd2UiXkeg3KwuWQQAA">
@@ -207,6 +207,7 @@
 <XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="HBEUXT6eWESPD3jansDn/wAA">
 <XPD:ATTR name="Name" type="string">ImageFile</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">abstract</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Namespace">x/A2mxAUzUe7SvI+mdbQTwAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">Xhvh4zNJ4UO8ieldo9R/ggAA</XPD:REF>
@@ -249,15 +250,15 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[3]" type="UMLOperation" guid="tRW5NIT9Z0COj5903j32mAAA">
 <XPD:ATTR name="Name" type="string">export</XPD:ATTR>
-<XPD:ATTR name="StereotypeName" type="string">abstract</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Owner">HBEUXT6eWESPD3jansDn/wAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Y/sivlPi7UCBG+Mv98wOaAAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="+4zxoaLrIEyzDku4Mq+g6gAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">tRW5NIT9Z0COj5903j32mAAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="UA+1TDWfk0W1rJCImipWUgAA">
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="8V+naGHdz0WABT3AVfP9FgAA">
 <XPD:ATTR name="Name" type="string">path</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">tRW5NIT9Z0COj5903j32mAAA</XPD:REF>
