@@ -21,13 +21,13 @@ public class Recipes {
         }
 
         @Override
-        public int id() {
-            return id;
+        public String evaluate(Context context) {
+            return context.getItem(id);
         }
 
         @Override
-        public String evaluate(Context context) {
-            return context.getItem(id);
+        public int id() {
+            return id;
         }
     }
 
@@ -43,13 +43,13 @@ public class Recipes {
         }
 
         @Override
-        public int id() {
-            return id;
+        public String evaluate(Context context) {
+            return context.getItem(id);
         }
 
         @Override
-        public String evaluate(Context context) {
-            return context.getItem(id);
+        public int id() {
+            return id;
         }
     }
 
