@@ -16,10 +16,10 @@ public class Main {
         Item wood = new Item(1);
         Recipe planks1 = new Recipes.Convert(wood);
         Recipe planks2 = new Recipes.Convert(wood);
-        System.out.println("Item crafted: " + itemList.getItem(planks1.evaluate()));
+        System.out.println("Item crafted: " + planks1.evaluate(itemList));
 
         Recipe sticks = new Recipes.Combine(List.of(planks1, planks2));
-        System.out.println("Item crafted: " + itemList.getItem(sticks.evaluate()));
+        System.out.println("Item crafted: " + sticks.evaluate(itemList));
 
         Item iron1 = new Item(2);
         Item iron2 = new Item(2);
@@ -28,7 +28,7 @@ public class Main {
         Recipe pickaxeHead = new Recipes.Combine(List.of(iron1, iron2, iron3));
         Recipe pickaxe = new Recipes.Combine(List.of(sticks, pickaxeHead));
 
-        System.out.println("Item crafted: " + itemList.getItem(pickaxeHead.evaluate()));
-        System.out.println("Item crafted: " + itemList.getItem(pickaxe.evaluate()));
+        System.out.println("Item crafted: " + pickaxeHead.evaluate(itemList));
+        System.out.println("Item crafted: " + pickaxe.evaluate(itemList));
     }
 }

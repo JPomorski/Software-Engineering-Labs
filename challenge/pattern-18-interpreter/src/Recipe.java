@@ -1,3 +1,4 @@
 public interface Recipe {
-    int evaluate();
+    int id();
+    String evaluate(Context context);
 }

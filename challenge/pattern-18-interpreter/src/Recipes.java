@@ -8,7 +8,7 @@ public class Recipes {
             StringBuilder code = new StringBuilder();
 
             for(Recipe item : items) {
-                code.append(item.evaluate());
+                code.append(item.id());
             }
 
             this.id = switch(code.toString()) {
@@ -21,8 +21,13 @@ public class Recipes {
         }
 
         @Override
-        public int evaluate() {
+        public int id() {
             return id;
+        }
+
+        @Override
+        public String evaluate(Context context) {
+            return context.getItem(id);
         }
     }
 
@@ -30,7 +35,7 @@ public class Recipes {
         private final int id;
 
         public Convert(Recipe item) {
-            this.id = switch (item.evaluate()) {
+            this.id = switch (item.id()) {
                 case 1 -> 3;
                 case 2 -> 9;
                 default -> -1;
@@ -38,8 +43,13 @@ public class Recipes {
         }
 
         @Override
-        public int evaluate() {
+        public int id() {
             return id;
+        }
+
+        @Override
+        public String evaluate(Context context) {
+            return context.getItem(id);
         }
     }
 

@@ -1,12 +1,7 @@
-public class Item implements Recipe {
-    private final int id;
-
-    public Item(int id) {
-        this.id = id;
-    }
+public record Item(int id) implements Recipe {
 
     @Override
-    public int evaluate() {
-        return id;
+    public String evaluate(Context context) {
+        return context.getItem(id);
     }
 }
