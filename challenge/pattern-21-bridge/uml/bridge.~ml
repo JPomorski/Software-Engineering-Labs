@@ -239,7 +239,7 @@
 <XPD:ATTR name="Left" type="integer">44</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">292</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">261</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">59</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">85</XPD:ATTR>
 <XPD:REF name="Model">I/CdyJ4Cb06g5280YaaNOwAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="su6e48oeGECULmna0f67DQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="ntxl0VpYA0aLO+HUeQAqBgAA">
@@ -254,7 +254,6 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="ieWLMQrFzE2326gtmCJyGwAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
 <XPD:REF name="Model">I/CdyJ4Cb06g5280YaaNOwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="656r8oAdyEyM5CWnhZ4sAQAA">
@@ -271,7 +270,7 @@
 <XPD:ATTR name="Left" type="integer">320</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">292</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">281</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">59</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">85</XPD:ATTR>
 <XPD:REF name="Model">eX3IQgv5MEq/AWiIQScbJQAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="FcUkuzLf60G52j0CscFW0wAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="zlQGRQGaUEqwP028d4KOeAAA">
@@ -286,7 +285,6 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="Jek7/dt8CUyIa9JIf0WBPwAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
 <XPD:REF name="Model">eX3IQgv5MEq/AWiIQScbJQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="qDWFTgC3oEGcTdyJm3FxkQAA">
@@ -300,7 +298,7 @@
 <XPD:OBJ name="OwnedViews[8]" type="UMLGeneralizationView" guid="tv8TlkIFu0Wzje92lCc5RwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">198,292;272,204</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">207,292;275,204</XPD:ATTR>
 <XPD:REF name="Model">B4j/o2MZf06k6683J0KCxQAA</XPD:REF>
 <XPD:REF name="Head">ceo6ZunvsUiWBLQoONj82wAA</XPD:REF>
 <XPD:REF name="Tail">dlpE1ZNGakiMIO3jGu6RGQAA</XPD:REF>
@@ -326,7 +324,7 @@
 <XPD:OBJ name="OwnedViews[9]" type="UMLGeneralizationView" guid="16yoeOg5pEu+gI/cPIs6PgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">434,292;355,204</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">425,292;352,204</XPD:ATTR>
 <XPD:REF name="Model">i50V27+hdEuJJp8GRmbRjAAA</XPD:REF>
 <XPD:REF name="Head">ceo6ZunvsUiWBLQoONj82wAA</XPD:REF>
 <XPD:REF name="Tail">r/FS22eGvEK9LHYvJp1ShgAA</XPD:REF>
@@ -463,6 +461,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="SP3HNFfQBUq3Dmfx3AWcXgAA">
 <XPD:ATTR name="Name" type="string">logActivity</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Owner">qM+EnAUG+UGxNLOuHseS1AAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="xm3SuFAeP0uKNbUPlSyzgAAA">
@@ -603,6 +602,13 @@
 <XPD:REF name="BehavioralFeature">SP0/EWwyXEmQCL8fz5AWXQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:ATTR name="#Attributes" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="3BtxPzX8S0SKIWcDtp4o0wAA">
+<XPD:ATTR name="Name" type="string">logger</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">ActivityLogger*</XPD:ATTR>
+<XPD:REF name="Owner">I/CdyJ4Cb06g5280YaaNOwAA</XPD:REF>
+</XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[7]" type="UMLClass" guid="eX3IQgv5MEq/AWiIQScbJQAA">
 <XPD:ATTR name="Name" type="string">DatabaseServer</XPD:ATTR>
@@ -636,6 +642,13 @@
 <XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">xL0Eo9QuaUehGJAYKSwMaQAA</XPD:REF>
 </XPD:OBJ>
+</XPD:OBJ>
+<XPD:ATTR name="#Attributes" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="E1KZxmQljk2iA+7TNW5HLQAA">
+<XPD:ATTR name="Name" type="string">logger</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">ActivityLogger*</XPD:ATTR>
+<XPD:REF name="Owner">eX3IQgv5MEq/AWiIQScbJQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[8]" type="UMLGeneralization" guid="B4j/o2MZf06k6683J0KCxQAA">
